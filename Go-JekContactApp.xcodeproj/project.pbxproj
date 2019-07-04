@@ -14,6 +14,7 @@
 		054B1D1822CDAB3A00F0B112 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 054B1D1622CDAB3A00F0B112 /* LaunchScreen.storyboard */; };
 		054B1D2322CDAB3A00F0B112 /* Go_JekContactAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054B1D2222CDAB3A00F0B112 /* Go_JekContactAppTests.swift */; };
 		054B1D2E22CDAB3A00F0B112 /* Go_JekContactAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054B1D2D22CDAB3A00F0B112 /* Go_JekContactAppUITests.swift */; };
+		054B1D3D22CDABD500F0B112 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054B1D3C22CDABD500F0B112 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		054B1D2922CDAB3A00F0B112 /* Go-JekContactAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Go-JekContactAppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		054B1D2D22CDAB3A00F0B112 /* Go_JekContactAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Go_JekContactAppUITests.swift; sourceTree = "<group>"; };
 		054B1D2F22CDAB3A00F0B112 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		054B1D3C22CDABD500F0B112 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		054B1D0C22CDAB3800F0B112 /* Go-JekContactApp */ = {
 			isa = PBXGroup;
 			children = (
+				054B1D3B22CDABBC00F0B112 /* Constants */,
 				054B1D0D22CDAB3800F0B112 /* AppDelegate.swift */,
 				054B1D0F22CDAB3800F0B112 /* ViewController.swift */,
 				054B1D1122CDAB3800F0B112 /* Main.storyboard */,
@@ -123,6 +126,14 @@
 				054B1D2F22CDAB3A00F0B112 /* Info.plist */,
 			);
 			path = "Go-JekContactAppUITests";
+			sourceTree = "<group>";
+		};
+		054B1D3B22CDABBC00F0B112 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				054B1D3C22CDABD500F0B112 /* Constants.swift */,
+			);
+			path = Constants;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +269,7 @@
 			files = (
 				054B1D1022CDAB3800F0B112 /* ViewController.swift in Sources */,
 				054B1D0E22CDAB3800F0B112 /* AppDelegate.swift in Sources */,
+				054B1D3D22CDABD500F0B112 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

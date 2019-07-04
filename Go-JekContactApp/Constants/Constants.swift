@@ -16,7 +16,7 @@ struct Constants {
     static let defaultProfilePicHost = "https://contacts-app.s3-ap-southeast-1.amazonaws.com/contacts/profile_pics/000/000/008"
 }
 
-struct WebEngineConstant {
+struct WebConstant {
     static let baseURL = "http://gojek-contacts-app.herokuapp.com"
     static let getContactListURL = "/contacts.json"
     static let updateContactURL = "/contacts"

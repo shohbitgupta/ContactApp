@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CustomControl" customModule="ContactApp" customModuleProvider="target">
+            <connections>
+                <outlet property="buttonTitleLabel" destination="pNl-vT-0g0" id="9ut-kS-t2B"/>
+                <outlet property="customView" destination="iN0-l3-epB" id="jXw-OS-v1w"/>
+                <outlet property="imageButton" destination="oct-rs-c5b" id="tbg-Wv-v05"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="55" height="55"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oct-rs-c5b">
+                    <rect key="frame" x="7.5" y="0.0" width="40" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="40" id="GvR-AY-TGT"/>
+                        <constraint firstAttribute="height" constant="40" id="lyu-TH-REH"/>
+                    </constraints>
+                    <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <state key="normal" image="message_button">
+                        <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="buttonTapped:" destination="-1" eventType="touchUpInside" id="XUR-2c-awH"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="6" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pNl-vT-0g0">
+                    <rect key="frame" x="12" y="40" width="31" height="15"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" red="0.2901960784" green="0.2901960784" blue="0.2901960784" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="pNl-vT-0g0" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="9WU-3g-42G"/>
+                <constraint firstItem="oct-rs-c5b" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="fPt-f6-l3x"/>
+                <constraint firstItem="pNl-vT-0g0" firstAttribute="top" secondItem="oct-rs-c5b" secondAttribute="bottom" id="n8Z-7Z-ssB"/>
+                <constraint firstItem="pNl-vT-0g0" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="qUp-mN-UCh"/>
+                <constraint firstItem="oct-rs-c5b" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="rA9-oP-Y6f"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="message_button" width="44" height="44"/>
+    </resources>
+</document>

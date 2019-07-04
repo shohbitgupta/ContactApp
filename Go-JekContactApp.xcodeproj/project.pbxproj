@@ -15,6 +15,28 @@
 		054B1D2322CDAB3A00F0B112 /* Go_JekContactAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054B1D2222CDAB3A00F0B112 /* Go_JekContactAppTests.swift */; };
 		054B1D2E22CDAB3A00F0B112 /* Go_JekContactAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054B1D2D22CDAB3A00F0B112 /* Go_JekContactAppUITests.swift */; };
 		054B1D3D22CDABD500F0B112 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054B1D3C22CDABD500F0B112 /* Constants.swift */; };
+		054B1D4222CDB8D300F0B112 /* NetworkServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054B1D4122CDB8D300F0B112 /* NetworkServiceManager.swift */; };
+		054B1D4422CDB9A000F0B112 /* NetworkObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054B1D4322CDB9A000F0B112 /* NetworkObject.swift */; };
+		054B1D4722CDBBFB00F0B112 /* DataError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054B1D4622CDBBFB00F0B112 /* DataError.swift */; };
+		054B1D4922CDBC7600F0B112 /* NetworkObjectProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054B1D4822CDBC7600F0B112 /* NetworkObjectProtocol.swift */; };
+		054B1D4B22CDBCB100F0B112 /* NetworkServiceHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054B1D4A22CDBCB100F0B112 /* NetworkServiceHandler.swift */; };
+		054B1D4D22CDBD7000F0B112 /* URLSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054B1D4C22CDBD7000F0B112 /* URLSessionManager.swift */; };
+		054B1D4F22CDBDAD00F0B112 /* URLSessionManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054B1D4E22CDBDAD00F0B112 /* URLSessionManagerProtocol.swift */; };
+		054B1D5222CDC0FC00F0B112 /* ContactManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054B1D5122CDC0FC00F0B112 /* ContactManager.swift */; };
+		054B1D5422CDC10C00F0B112 /* ContactManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054B1D5322CDC10C00F0B112 /* ContactManagerProtocol.swift */; };
+		054B1D5922CDC1A000F0B112 /* ContactModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054B1D5822CDC1A000F0B112 /* ContactModelProtocol.swift */; };
+		054B1D5B22CDC1B400F0B112 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054B1D5A22CDC1B400F0B112 /* Contact.swift */; };
+		054B1D5D22CDC1DC00F0B112 /* DataInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054B1D5C22CDC1DC00F0B112 /* DataInitializer.swift */; };
+		054B1D5F22CDC2BF00F0B112 /* NetworkDataDownloaderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054B1D5E22CDC2BF00F0B112 /* NetworkDataDownloaderProtocol.swift */; };
+		054B1D6222CDC31D00F0B112 /* DataBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054B1D6122CDC31D00F0B112 /* DataBuilder.swift */; };
+		054B1D6422CDC38500F0B112 /* ViewAccessorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054B1D6322CDC38500F0B112 /* ViewAccessorProtocol.swift */; };
+		054B1D6622CDC3F900F0B112 /* ContactViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054B1D6522CDC3F900F0B112 /* ContactViewModel.swift */; };
+		054B1D6822CDC43800F0B112 /* ContactViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054B1D6722CDC43800F0B112 /* ContactViewModelProtocol.swift */; };
+		054B1D6B22CDC47400F0B112 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054B1D6A22CDC47400F0B112 /* Utility.swift */; };
+		054B1D6E22CDC5C800F0B112 /* CustomControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054B1D6D22CDC5C800F0B112 /* CustomControl.swift */; };
+		054B1D7022CDC5E400F0B112 /* CustomControl.xib in Resources */ = {isa = PBXBuildFile; fileRef = 054B1D6F22CDC5E400F0B112 /* CustomControl.xib */; };
+		054B1D7222CDC5F300F0B112 /* CustomControlProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054B1D7122CDC5F300F0B112 /* CustomControlProtocol.swift */; };
+		054B1D7422CDC69E00F0B112 /* ToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054B1D7322CDC69E00F0B112 /* ToastView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +71,28 @@
 		054B1D2D22CDAB3A00F0B112 /* Go_JekContactAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Go_JekContactAppUITests.swift; sourceTree = "<group>"; };
 		054B1D2F22CDAB3A00F0B112 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		054B1D3C22CDABD500F0B112 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		054B1D4122CDB8D300F0B112 /* NetworkServiceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServiceManager.swift; sourceTree = "<group>"; };
+		054B1D4322CDB9A000F0B112 /* NetworkObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkObject.swift; sourceTree = "<group>"; };
+		054B1D4622CDBBFB00F0B112 /* DataError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataError.swift; sourceTree = "<group>"; };
+		054B1D4822CDBC7600F0B112 /* NetworkObjectProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkObjectProtocol.swift; sourceTree = "<group>"; };
+		054B1D4A22CDBCB100F0B112 /* NetworkServiceHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServiceHandler.swift; sourceTree = "<group>"; };
+		054B1D4C22CDBD7000F0B112 /* URLSessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionManager.swift; sourceTree = "<group>"; };
+		054B1D4E22CDBDAD00F0B112 /* URLSessionManagerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionManagerProtocol.swift; sourceTree = "<group>"; };
+		054B1D5122CDC0FC00F0B112 /* ContactManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactManager.swift; sourceTree = "<group>"; };
+		054B1D5322CDC10C00F0B112 /* ContactManagerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactManagerProtocol.swift; sourceTree = "<group>"; };
+		054B1D5822CDC1A000F0B112 /* ContactModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactModelProtocol.swift; sourceTree = "<group>"; };
+		054B1D5A22CDC1B400F0B112 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		054B1D5C22CDC1DC00F0B112 /* DataInitializer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataInitializer.swift; sourceTree = "<group>"; };
+		054B1D5E22CDC2BF00F0B112 /* NetworkDataDownloaderProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDataDownloaderProtocol.swift; sourceTree = "<group>"; };
+		054B1D6122CDC31D00F0B112 /* DataBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBuilder.swift; sourceTree = "<group>"; };
+		054B1D6322CDC38500F0B112 /* ViewAccessorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewAccessorProtocol.swift; sourceTree = "<group>"; };
+		054B1D6522CDC3F900F0B112 /* ContactViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewModel.swift; sourceTree = "<group>"; };
+		054B1D6722CDC43800F0B112 /* ContactViewModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewModelProtocol.swift; sourceTree = "<group>"; };
+		054B1D6A22CDC47400F0B112 /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		054B1D6D22CDC5C800F0B112 /* CustomControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomControl.swift; sourceTree = "<group>"; };
+		054B1D6F22CDC5E400F0B112 /* CustomControl.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomControl.xib; sourceTree = "<group>"; };
+		054B1D7122CDC5F300F0B112 /* CustomControlProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomControlProtocol.swift; sourceTree = "<group>"; };
+		054B1D7322CDC69E00F0B112 /* ToastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +143,12 @@
 		054B1D0C22CDAB3800F0B112 /* Go-JekContactApp */ = {
 			isa = PBXGroup;
 			children = (
+				054B1D6C22CDC59300F0B112 /* CustomViews */,
+				054B1D6922CDC46500F0B112 /* Utility */,
+				054B1D6022CDC2FE00F0B112 /* DataBuilder */,
+				054B1D5522CDC14B00F0B112 /* ContactsModule */,
+				054B1D5022CDC0DD00F0B112 /* ContactManager */,
+				054B1D3E22CDAE1400F0B112 /* NetworkService */,
 				054B1D3B22CDABBC00F0B112 /* Constants */,
 				054B1D0D22CDAB3800F0B112 /* AppDelegate.swift */,
 				054B1D0F22CDAB3800F0B112 /* ViewController.swift */,
@@ -134,6 +184,110 @@
 				054B1D3C22CDABD500F0B112 /* Constants.swift */,
 			);
 			path = Constants;
+			sourceTree = "<group>";
+		};
+		054B1D3E22CDAE1400F0B112 /* NetworkService */ = {
+			isa = PBXGroup;
+			children = (
+				054B1D4522CDBBEC00F0B112 /* Error */,
+				054B1D4022CDAE3B00F0B112 /* SessionManager */,
+				054B1D3F22CDAE3100F0B112 /* NetworkManager */,
+			);
+			path = NetworkService;
+			sourceTree = "<group>";
+		};
+		054B1D3F22CDAE3100F0B112 /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				054B1D4122CDB8D300F0B112 /* NetworkServiceManager.swift */,
+				054B1D4322CDB9A000F0B112 /* NetworkObject.swift */,
+				054B1D5E22CDC2BF00F0B112 /* NetworkDataDownloaderProtocol.swift */,
+				054B1D4A22CDBCB100F0B112 /* NetworkServiceHandler.swift */,
+				054B1D4822CDBC7600F0B112 /* NetworkObjectProtocol.swift */,
+			);
+			path = NetworkManager;
+			sourceTree = "<group>";
+		};
+		054B1D4022CDAE3B00F0B112 /* SessionManager */ = {
+			isa = PBXGroup;
+			children = (
+				054B1D4C22CDBD7000F0B112 /* URLSessionManager.swift */,
+				054B1D4E22CDBDAD00F0B112 /* URLSessionManagerProtocol.swift */,
+			);
+			path = SessionManager;
+			sourceTree = "<group>";
+		};
+		054B1D4522CDBBEC00F0B112 /* Error */ = {
+			isa = PBXGroup;
+			children = (
+				054B1D4622CDBBFB00F0B112 /* DataError.swift */,
+			);
+			path = Error;
+			sourceTree = "<group>";
+		};
+		054B1D5022CDC0DD00F0B112 /* ContactManager */ = {
+			isa = PBXGroup;
+			children = (
+				054B1D5122CDC0FC00F0B112 /* ContactManager.swift */,
+				054B1D5322CDC10C00F0B112 /* ContactManagerProtocol.swift */,
+			);
+			path = ContactManager;
+			sourceTree = "<group>";
+		};
+		054B1D5522CDC14B00F0B112 /* ContactsModule */ = {
+			isa = PBXGroup;
+			children = (
+				054B1D5722CDC18300F0B112 /* Models */,
+				054B1D5622CDC17D00F0B112 /* ViewModel */,
+			);
+			path = ContactsModule;
+			sourceTree = "<group>";
+		};
+		054B1D5622CDC17D00F0B112 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				054B1D6322CDC38500F0B112 /* ViewAccessorProtocol.swift */,
+				054B1D6522CDC3F900F0B112 /* ContactViewModel.swift */,
+				054B1D6722CDC43800F0B112 /* ContactViewModelProtocol.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		054B1D5722CDC18300F0B112 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				054B1D5822CDC1A000F0B112 /* ContactModelProtocol.swift */,
+				054B1D5A22CDC1B400F0B112 /* Contact.swift */,
+				054B1D5C22CDC1DC00F0B112 /* DataInitializer.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		054B1D6022CDC2FE00F0B112 /* DataBuilder */ = {
+			isa = PBXGroup;
+			children = (
+				054B1D6122CDC31D00F0B112 /* DataBuilder.swift */,
+			);
+			path = DataBuilder;
+			sourceTree = "<group>";
+		};
+		054B1D6922CDC46500F0B112 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				054B1D6A22CDC47400F0B112 /* Utility.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		054B1D6C22CDC59300F0B112 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				054B1D6D22CDC5C800F0B112 /* CustomControl.swift */,
+				054B1D6F22CDC5E400F0B112 /* CustomControl.xib */,
+				054B1D7122CDC5F300F0B112 /* CustomControlProtocol.swift */,
+				054B1D7322CDC69E00F0B112 /* ToastView.swift */,
+			);
+			path = CustomViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -242,6 +396,7 @@
 			files = (
 				054B1D1822CDAB3A00F0B112 /* LaunchScreen.storyboard in Resources */,
 				054B1D1522CDAB3A00F0B112 /* Assets.xcassets in Resources */,
+				054B1D7022CDC5E400F0B112 /* CustomControl.xib in Resources */,
 				054B1D1322CDAB3800F0B112 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -267,9 +422,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				054B1D4D22CDBD7000F0B112 /* URLSessionManager.swift in Sources */,
+				054B1D5222CDC0FC00F0B112 /* ContactManager.swift in Sources */,
+				054B1D4922CDBC7600F0B112 /* NetworkObjectProtocol.swift in Sources */,
+				054B1D6822CDC43800F0B112 /* ContactViewModelProtocol.swift in Sources */,
+				054B1D4F22CDBDAD00F0B112 /* URLSessionManagerProtocol.swift in Sources */,
+				054B1D6222CDC31D00F0B112 /* DataBuilder.swift in Sources */,
+				054B1D5422CDC10C00F0B112 /* ContactManagerProtocol.swift in Sources */,
+				054B1D4722CDBBFB00F0B112 /* DataError.swift in Sources */,
+				054B1D6422CDC38500F0B112 /* ViewAccessorProtocol.swift in Sources */,
+				054B1D6622CDC3F900F0B112 /* ContactViewModel.swift in Sources */,
+				054B1D6E22CDC5C800F0B112 /* CustomControl.swift in Sources */,
+				054B1D5B22CDC1B400F0B112 /* Contact.swift in Sources */,
+				054B1D7222CDC5F300F0B112 /* CustomControlProtocol.swift in Sources */,
+				054B1D5922CDC1A000F0B112 /* ContactModelProtocol.swift in Sources */,
+				054B1D4222CDB8D300F0B112 /* NetworkServiceManager.swift in Sources */,
+				054B1D5D22CDC1DC00F0B112 /* DataInitializer.swift in Sources */,
+				054B1D7422CDC69E00F0B112 /* ToastView.swift in Sources */,
+				054B1D6B22CDC47400F0B112 /* Utility.swift in Sources */,
 				054B1D1022CDAB3800F0B112 /* ViewController.swift in Sources */,
+				054B1D5F22CDC2BF00F0B112 /* NetworkDataDownloaderProtocol.swift in Sources */,
 				054B1D0E22CDAB3800F0B112 /* AppDelegate.swift in Sources */,
 				054B1D3D22CDABD500F0B112 /* Constants.swift in Sources */,
+				054B1D4422CDB9A000F0B112 /* NetworkObject.swift in Sources */,
+				054B1D4B22CDBCB100F0B112 /* NetworkServiceHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

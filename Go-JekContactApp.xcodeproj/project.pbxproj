@@ -48,6 +48,24 @@
 		054B1D8A22CF0C2300F0B112 /* HomeContactCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 054B1D8922CF0C2300F0B112 /* HomeContactCell.xib */; };
 		054B1D8C22CF0C3100F0B112 /* HomeContactCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054B1D8B22CF0C3100F0B112 /* HomeContactCell.swift */; };
 		054B1D8F22CF0E1200F0B112 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054B1D8E22CF0E1200F0B112 /* BaseViewController.swift */; };
+		054B1D9522CF3A7A00F0B112 /* ContactDetailFormModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054B1D9422CF3A7A00F0B112 /* ContactDetailFormModel.swift */; };
+		054B1D9722CF3A9C00F0B112 /* ContactDetailFormDataProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054B1D9622CF3A9C00F0B112 /* ContactDetailFormDataProtocol.swift */; };
+		054B1D9922CF3CC800F0B112 /* ContactDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054B1D9822CF3CC800F0B112 /* ContactDetailViewModel.swift */; };
+		054B1D9B22CF3CF800F0B112 /* ContactDetailModelUpdateProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054B1D9A22CF3CF800F0B112 /* ContactDetailModelUpdateProtocol.swift */; };
+		054B1D9D22CF3D9100F0B112 /* ContactDetailVMAccessorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054B1D9C22CF3D9100F0B112 /* ContactDetailVMAccessorProtocol.swift */; };
+		054B1D9F22CF3DE900F0B112 /* ContactDetailHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054B1D9E22CF3DE900F0B112 /* ContactDetailHeaderView.swift */; };
+		054B1DA122CF3EC300F0B112 /* ContactDetailHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 054B1DA022CF3EC300F0B112 /* ContactDetailHeaderView.xib */; };
+		054B1DA322CF437400F0B112 /* ContactDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054B1DA222CF437400F0B112 /* ContactDetailTableViewCell.swift */; };
+		054B1DA522CF43CD00F0B112 /* EditContactTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054B1DA422CF43CD00F0B112 /* EditContactTableCell.swift */; };
+		054B1DA722CF43F900F0B112 /* TextDetailUpdateProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054B1DA622CF43F900F0B112 /* TextDetailUpdateProtocol.swift */; };
+		054B1DAA22CF458100F0B112 /* ContactDetailCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 054B1DA822CF458100F0B112 /* ContactDetailCellTableViewCell.xib */; };
+		054B1DAB22CF458100F0B112 /* EditContactTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 054B1DA922CF458100F0B112 /* EditContactTableViewCell.xib */; };
+		054B1DAE22CF45B900F0B112 /* ContactDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054B1DAD22CF45B900F0B112 /* ContactDetailViewController.swift */; };
+		054B1DB022CF45F200F0B112 /* ContactActionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054B1DAF22CF45F200F0B112 /* ContactActionProtocol.swift */; };
+		054B1DB322CF470C00F0B112 /* StandardExtentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054B1DB222CF470C00F0B112 /* StandardExtentions.swift */; };
+		054B1DB522CF476600F0B112 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054B1DB422CF476600F0B112 /* ErrorView.swift */; };
+		054B1DB722CF479500F0B112 /* LoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054B1DB622CF479500F0B112 /* LoaderView.swift */; };
+		054B1DBA22CF47DE00F0B112 /* LayoutConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054B1DB922CF47DE00F0B112 /* LayoutConstraints.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -115,6 +133,24 @@
 		054B1D8922CF0C2300F0B112 /* HomeContactCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeContactCell.xib; sourceTree = "<group>"; };
 		054B1D8B22CF0C3100F0B112 /* HomeContactCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeContactCell.swift; sourceTree = "<group>"; };
 		054B1D8E22CF0E1200F0B112 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		054B1D9422CF3A7A00F0B112 /* ContactDetailFormModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailFormModel.swift; sourceTree = "<group>"; };
+		054B1D9622CF3A9C00F0B112 /* ContactDetailFormDataProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailFormDataProtocol.swift; sourceTree = "<group>"; };
+		054B1D9822CF3CC800F0B112 /* ContactDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailViewModel.swift; sourceTree = "<group>"; };
+		054B1D9A22CF3CF800F0B112 /* ContactDetailModelUpdateProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailModelUpdateProtocol.swift; sourceTree = "<group>"; };
+		054B1D9C22CF3D9100F0B112 /* ContactDetailVMAccessorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailVMAccessorProtocol.swift; sourceTree = "<group>"; };
+		054B1D9E22CF3DE900F0B112 /* ContactDetailHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailHeaderView.swift; sourceTree = "<group>"; };
+		054B1DA022CF3EC300F0B112 /* ContactDetailHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContactDetailHeaderView.xib; sourceTree = "<group>"; };
+		054B1DA222CF437400F0B112 /* ContactDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailTableViewCell.swift; sourceTree = "<group>"; };
+		054B1DA422CF43CD00F0B112 /* EditContactTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditContactTableCell.swift; sourceTree = "<group>"; };
+		054B1DA622CF43F900F0B112 /* TextDetailUpdateProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextDetailUpdateProtocol.swift; sourceTree = "<group>"; };
+		054B1DA822CF458100F0B112 /* ContactDetailCellTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContactDetailCellTableViewCell.xib; sourceTree = "<group>"; };
+		054B1DA922CF458100F0B112 /* EditContactTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EditContactTableViewCell.xib; sourceTree = "<group>"; };
+		054B1DAD22CF45B900F0B112 /* ContactDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailViewController.swift; sourceTree = "<group>"; };
+		054B1DAF22CF45F200F0B112 /* ContactActionProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactActionProtocol.swift; sourceTree = "<group>"; };
+		054B1DB222CF470C00F0B112 /* StandardExtentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandardExtentions.swift; sourceTree = "<group>"; };
+		054B1DB422CF476600F0B112 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		054B1DB622CF479500F0B112 /* LoaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderView.swift; sourceTree = "<group>"; };
+		054B1DB922CF47DE00F0B112 /* LayoutConstraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutConstraints.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +201,8 @@
 		054B1D0C22CDAB3800F0B112 /* Go-JekContactApp */ = {
 			isa = PBXGroup;
 			children = (
+				054B1DB122CF46E900F0B112 /* StandardExtentions */,
+				054B1DB822CF47C200F0B112 /* Constraints */,
 				054B1D9022CF0E3500F0B112 /* ContactDetailModule */,
 				054B1D8D22CF0E0100F0B112 /* ViewControllers */,
 				054B1D7522CF09A500F0B112 /* Caching */,
@@ -312,6 +350,8 @@
 				054B1D6F22CDC5E400F0B112 /* CustomControl.xib */,
 				054B1D7122CDC5F300F0B112 /* CustomControlProtocol.swift */,
 				054B1D7322CDC69E00F0B112 /* ToastView.swift */,
+				054B1DB422CF476600F0B112 /* ErrorView.swift */,
+				054B1DB622CF479500F0B112 /* LoaderView.swift */,
 			);
 			path = CustomViews;
 			sourceTree = "<group>";
@@ -359,8 +399,70 @@
 		054B1D9022CF0E3500F0B112 /* ContactDetailModule */ = {
 			isa = PBXGroup;
 			children = (
+				054B1DAC22CF45A300F0B112 /* Controller */,
+				054B1D9322CF3A4C00F0B112 /* Views */,
+				054B1D9222CF3A3F00F0B112 /* ViewModel */,
+				054B1D9122CF3A3200F0B112 /* Models */,
 			);
 			path = ContactDetailModule;
+			sourceTree = "<group>";
+		};
+		054B1D9122CF3A3200F0B112 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				054B1D9422CF3A7A00F0B112 /* ContactDetailFormModel.swift */,
+				054B1D9622CF3A9C00F0B112 /* ContactDetailFormDataProtocol.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		054B1D9222CF3A3F00F0B112 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				054B1D9822CF3CC800F0B112 /* ContactDetailViewModel.swift */,
+				054B1D9A22CF3CF800F0B112 /* ContactDetailModelUpdateProtocol.swift */,
+				054B1D9C22CF3D9100F0B112 /* ContactDetailVMAccessorProtocol.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		054B1D9322CF3A4C00F0B112 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				054B1DA022CF3EC300F0B112 /* ContactDetailHeaderView.xib */,
+				054B1D9E22CF3DE900F0B112 /* ContactDetailHeaderView.swift */,
+				054B1DA222CF437400F0B112 /* ContactDetailTableViewCell.swift */,
+				054B1DA422CF43CD00F0B112 /* EditContactTableCell.swift */,
+				054B1DA622CF43F900F0B112 /* TextDetailUpdateProtocol.swift */,
+				054B1DA822CF458100F0B112 /* ContactDetailCellTableViewCell.xib */,
+				054B1DA922CF458100F0B112 /* EditContactTableViewCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		054B1DAC22CF45A300F0B112 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				054B1DAD22CF45B900F0B112 /* ContactDetailViewController.swift */,
+				054B1DAF22CF45F200F0B112 /* ContactActionProtocol.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		054B1DB122CF46E900F0B112 /* StandardExtentions */ = {
+			isa = PBXGroup;
+			children = (
+				054B1DB222CF470C00F0B112 /* StandardExtentions.swift */,
+			);
+			path = StandardExtentions;
+			sourceTree = "<group>";
+		};
+		054B1DB822CF47C200F0B112 /* Constraints */ = {
+			isa = PBXGroup;
+			children = (
+				054B1DB922CF47DE00F0B112 /* LayoutConstraints.swift */,
+			);
+			path = Constraints;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -468,7 +570,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				054B1D1822CDAB3A00F0B112 /* LaunchScreen.storyboard in Resources */,
+				054B1DA122CF3EC300F0B112 /* ContactDetailHeaderView.xib in Resources */,
+				054B1DAB22CF458100F0B112 /* EditContactTableViewCell.xib in Resources */,
 				054B1D1522CDAB3A00F0B112 /* Assets.xcassets in Resources */,
+				054B1DAA22CF458100F0B112 /* ContactDetailCellTableViewCell.xib in Resources */,
 				054B1D7022CDC5E400F0B112 /* CustomControl.xib in Resources */,
 				054B1D1322CDAB3800F0B112 /* Main.storyboard in Resources */,
 				054B1D8A22CF0C2300F0B112 /* HomeContactCell.xib in Resources */,
@@ -498,38 +603,53 @@
 			files = (
 				054B1D7D22CF0A5500F0B112 /* ImageDownloadTask.swift in Sources */,
 				054B1D4D22CDBD7000F0B112 /* URLSessionManager.swift in Sources */,
+				054B1D9D22CF3D9100F0B112 /* ContactDetailVMAccessorProtocol.swift in Sources */,
+				054B1D9F22CF3DE900F0B112 /* ContactDetailHeaderView.swift in Sources */,
 				054B1D8422CF0B7A00F0B112 /* ImageCaching.swift in Sources */,
 				054B1D5222CDC0FC00F0B112 /* ContactManager.swift in Sources */,
 				054B1D4922CDBC7600F0B112 /* NetworkObjectProtocol.swift in Sources */,
+				054B1DA722CF43F900F0B112 /* TextDetailUpdateProtocol.swift in Sources */,
+				054B1D9722CF3A9C00F0B112 /* ContactDetailFormDataProtocol.swift in Sources */,
 				054B1D8222CF0B5B00F0B112 /* ImageCacheProtocol.swift in Sources */,
 				054B1D6822CDC43800F0B112 /* ContactViewModelProtocol.swift in Sources */,
 				054B1D8F22CF0E1200F0B112 /* BaseViewController.swift in Sources */,
+				054B1DA522CF43CD00F0B112 /* EditContactTableCell.swift in Sources */,
+				054B1DB522CF476600F0B112 /* ErrorView.swift in Sources */,
 				054B1D7B22CF0A3700F0B112 /* ImageTaskHandler.swift in Sources */,
 				054B1D4F22CDBDAD00F0B112 /* URLSessionManagerProtocol.swift in Sources */,
 				054B1D6222CDC31D00F0B112 /* DataBuilder.swift in Sources */,
 				054B1D5422CDC10C00F0B112 /* ContactManagerProtocol.swift in Sources */,
 				054B1D7722CF09BC00F0B112 /* ImageDownloadingProtocol.swift in Sources */,
+				054B1D9522CF3A7A00F0B112 /* ContactDetailFormModel.swift in Sources */,
 				054B1D4722CDBBFB00F0B112 /* DataError.swift in Sources */,
+				054B1D9922CF3CC800F0B112 /* ContactDetailViewModel.swift in Sources */,
+				054B1DB022CF45F200F0B112 /* ContactActionProtocol.swift in Sources */,
 				054B1D6422CDC38500F0B112 /* ViewAccessorProtocol.swift in Sources */,
 				054B1D6622CDC3F900F0B112 /* ContactViewModel.swift in Sources */,
 				054B1D6E22CDC5C800F0B112 /* CustomControl.swift in Sources */,
+				054B1DB322CF470C00F0B112 /* StandardExtentions.swift in Sources */,
 				054B1D5B22CDC1B400F0B112 /* Contact.swift in Sources */,
 				054B1D7222CDC5F300F0B112 /* CustomControlProtocol.swift in Sources */,
+				054B1DB722CF479500F0B112 /* LoaderView.swift in Sources */,
 				054B1D5922CDC1A000F0B112 /* ContactModelProtocol.swift in Sources */,
 				054B1D4222CDB8D300F0B112 /* NetworkServiceManager.swift in Sources */,
 				054B1D7922CF0A1100F0B112 /* ImageDownloadingStatus.swift in Sources */,
 				054B1D5D22CDC1DC00F0B112 /* DataInitializer.swift in Sources */,
+				054B1DAE22CF45B900F0B112 /* ContactDetailViewController.swift in Sources */,
 				054B1D7422CDC69E00F0B112 /* ToastView.swift in Sources */,
 				054B1D6B22CDC47400F0B112 /* Utility.swift in Sources */,
 				054B1D1022CDAB3800F0B112 /* ViewController.swift in Sources */,
 				054B1D5F22CDC2BF00F0B112 /* NetworkDataDownloaderProtocol.swift in Sources */,
 				054B1D8C22CF0C3100F0B112 /* HomeContactCell.swift in Sources */,
 				054B1D7F22CF0A7300F0B112 /* ImageDownloader.swift in Sources */,
+				054B1D9B22CF3CF800F0B112 /* ContactDetailModelUpdateProtocol.swift in Sources */,
 				054B1D0E22CDAB3800F0B112 /* AppDelegate.swift in Sources */,
 				054B1D3D22CDABD500F0B112 /* Constants.swift in Sources */,
 				054B1D4422CDB9A000F0B112 /* NetworkObject.swift in Sources */,
+				054B1DA322CF437400F0B112 /* ContactDetailTableViewCell.swift in Sources */,
 				054B1D4B22CDBCB100F0B112 /* NetworkServiceHandler.swift in Sources */,
 				054B1D8722CF0BCF00F0B112 /* CellUpdateProtocol.swift in Sources */,
+				054B1DBA22CF47DE00F0B112 /* LayoutConstraints.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

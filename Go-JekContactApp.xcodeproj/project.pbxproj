@@ -37,6 +37,17 @@
 		054B1D7022CDC5E400F0B112 /* CustomControl.xib in Resources */ = {isa = PBXBuildFile; fileRef = 054B1D6F22CDC5E400F0B112 /* CustomControl.xib */; };
 		054B1D7222CDC5F300F0B112 /* CustomControlProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054B1D7122CDC5F300F0B112 /* CustomControlProtocol.swift */; };
 		054B1D7422CDC69E00F0B112 /* ToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054B1D7322CDC69E00F0B112 /* ToastView.swift */; };
+		054B1D7722CF09BC00F0B112 /* ImageDownloadingProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054B1D7622CF09BC00F0B112 /* ImageDownloadingProtocol.swift */; };
+		054B1D7922CF0A1100F0B112 /* ImageDownloadingStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054B1D7822CF0A1100F0B112 /* ImageDownloadingStatus.swift */; };
+		054B1D7B22CF0A3700F0B112 /* ImageTaskHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054B1D7A22CF0A3700F0B112 /* ImageTaskHandler.swift */; };
+		054B1D7D22CF0A5500F0B112 /* ImageDownloadTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054B1D7C22CF0A5500F0B112 /* ImageDownloadTask.swift */; };
+		054B1D7F22CF0A7300F0B112 /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054B1D7E22CF0A7300F0B112 /* ImageDownloader.swift */; };
+		054B1D8222CF0B5B00F0B112 /* ImageCacheProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054B1D8122CF0B5B00F0B112 /* ImageCacheProtocol.swift */; };
+		054B1D8422CF0B7A00F0B112 /* ImageCaching.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054B1D8322CF0B7A00F0B112 /* ImageCaching.swift */; };
+		054B1D8722CF0BCF00F0B112 /* CellUpdateProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054B1D8622CF0BCF00F0B112 /* CellUpdateProtocol.swift */; };
+		054B1D8A22CF0C2300F0B112 /* HomeContactCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 054B1D8922CF0C2300F0B112 /* HomeContactCell.xib */; };
+		054B1D8C22CF0C3100F0B112 /* HomeContactCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054B1D8B22CF0C3100F0B112 /* HomeContactCell.swift */; };
+		054B1D8F22CF0E1200F0B112 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054B1D8E22CF0E1200F0B112 /* BaseViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,6 +104,17 @@
 		054B1D6F22CDC5E400F0B112 /* CustomControl.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomControl.xib; sourceTree = "<group>"; };
 		054B1D7122CDC5F300F0B112 /* CustomControlProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomControlProtocol.swift; sourceTree = "<group>"; };
 		054B1D7322CDC69E00F0B112 /* ToastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastView.swift; sourceTree = "<group>"; };
+		054B1D7622CF09BC00F0B112 /* ImageDownloadingProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDownloadingProtocol.swift; sourceTree = "<group>"; };
+		054B1D7822CF0A1100F0B112 /* ImageDownloadingStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDownloadingStatus.swift; sourceTree = "<group>"; };
+		054B1D7A22CF0A3700F0B112 /* ImageTaskHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTaskHandler.swift; sourceTree = "<group>"; };
+		054B1D7C22CF0A5500F0B112 /* ImageDownloadTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDownloadTask.swift; sourceTree = "<group>"; };
+		054B1D7E22CF0A7300F0B112 /* ImageDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDownloader.swift; sourceTree = "<group>"; };
+		054B1D8122CF0B5B00F0B112 /* ImageCacheProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCacheProtocol.swift; sourceTree = "<group>"; };
+		054B1D8322CF0B7A00F0B112 /* ImageCaching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCaching.swift; sourceTree = "<group>"; };
+		054B1D8622CF0BCF00F0B112 /* CellUpdateProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellUpdateProtocol.swift; sourceTree = "<group>"; };
+		054B1D8922CF0C2300F0B112 /* HomeContactCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeContactCell.xib; sourceTree = "<group>"; };
+		054B1D8B22CF0C3100F0B112 /* HomeContactCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeContactCell.swift; sourceTree = "<group>"; };
+		054B1D8E22CF0E1200F0B112 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +165,9 @@
 		054B1D0C22CDAB3800F0B112 /* Go-JekContactApp */ = {
 			isa = PBXGroup;
 			children = (
+				054B1D9022CF0E3500F0B112 /* ContactDetailModule */,
+				054B1D8D22CF0E0100F0B112 /* ViewControllers */,
+				054B1D7522CF09A500F0B112 /* Caching */,
 				054B1D6C22CDC59300F0B112 /* CustomViews */,
 				054B1D6922CDC46500F0B112 /* Utility */,
 				054B1D6022CDC2FE00F0B112 /* DataBuilder */,
@@ -237,6 +262,7 @@
 		054B1D5522CDC14B00F0B112 /* ContactsModule */ = {
 			isa = PBXGroup;
 			children = (
+				054B1D8522CF0BC200F0B112 /* Views */,
 				054B1D5722CDC18300F0B112 /* Models */,
 				054B1D5622CDC17D00F0B112 /* ViewModel */,
 			);
@@ -288,6 +314,53 @@
 				054B1D7322CDC69E00F0B112 /* ToastView.swift */,
 			);
 			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		054B1D7522CF09A500F0B112 /* Caching */ = {
+			isa = PBXGroup;
+			children = (
+				054B1D7622CF09BC00F0B112 /* ImageDownloadingProtocol.swift */,
+				054B1D7822CF0A1100F0B112 /* ImageDownloadingStatus.swift */,
+				054B1D7A22CF0A3700F0B112 /* ImageTaskHandler.swift */,
+				054B1D7C22CF0A5500F0B112 /* ImageDownloadTask.swift */,
+				054B1D7E22CF0A7300F0B112 /* ImageDownloader.swift */,
+				054B1D8022CF0B3A00F0B112 /* ImageCacher */,
+			);
+			path = Caching;
+			sourceTree = "<group>";
+		};
+		054B1D8022CF0B3A00F0B112 /* ImageCacher */ = {
+			isa = PBXGroup;
+			children = (
+				054B1D8122CF0B5B00F0B112 /* ImageCacheProtocol.swift */,
+				054B1D8322CF0B7A00F0B112 /* ImageCaching.swift */,
+			);
+			path = ImageCacher;
+			sourceTree = "<group>";
+		};
+		054B1D8522CF0BC200F0B112 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				054B1D8622CF0BCF00F0B112 /* CellUpdateProtocol.swift */,
+				054B1D8B22CF0C3100F0B112 /* HomeContactCell.swift */,
+				054B1D8922CF0C2300F0B112 /* HomeContactCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		054B1D8D22CF0E0100F0B112 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				054B1D8E22CF0E1200F0B112 /* BaseViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		054B1D9022CF0E3500F0B112 /* ContactDetailModule */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ContactDetailModule;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -398,6 +471,7 @@
 				054B1D1522CDAB3A00F0B112 /* Assets.xcassets in Resources */,
 				054B1D7022CDC5E400F0B112 /* CustomControl.xib in Resources */,
 				054B1D1322CDAB3800F0B112 /* Main.storyboard in Resources */,
+				054B1D8A22CF0C2300F0B112 /* HomeContactCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,13 +496,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				054B1D7D22CF0A5500F0B112 /* ImageDownloadTask.swift in Sources */,
 				054B1D4D22CDBD7000F0B112 /* URLSessionManager.swift in Sources */,
+				054B1D8422CF0B7A00F0B112 /* ImageCaching.swift in Sources */,
 				054B1D5222CDC0FC00F0B112 /* ContactManager.swift in Sources */,
 				054B1D4922CDBC7600F0B112 /* NetworkObjectProtocol.swift in Sources */,
+				054B1D8222CF0B5B00F0B112 /* ImageCacheProtocol.swift in Sources */,
 				054B1D6822CDC43800F0B112 /* ContactViewModelProtocol.swift in Sources */,
+				054B1D8F22CF0E1200F0B112 /* BaseViewController.swift in Sources */,
+				054B1D7B22CF0A3700F0B112 /* ImageTaskHandler.swift in Sources */,
 				054B1D4F22CDBDAD00F0B112 /* URLSessionManagerProtocol.swift in Sources */,
 				054B1D6222CDC31D00F0B112 /* DataBuilder.swift in Sources */,
 				054B1D5422CDC10C00F0B112 /* ContactManagerProtocol.swift in Sources */,
+				054B1D7722CF09BC00F0B112 /* ImageDownloadingProtocol.swift in Sources */,
 				054B1D4722CDBBFB00F0B112 /* DataError.swift in Sources */,
 				054B1D6422CDC38500F0B112 /* ViewAccessorProtocol.swift in Sources */,
 				054B1D6622CDC3F900F0B112 /* ContactViewModel.swift in Sources */,
@@ -437,15 +517,19 @@
 				054B1D7222CDC5F300F0B112 /* CustomControlProtocol.swift in Sources */,
 				054B1D5922CDC1A000F0B112 /* ContactModelProtocol.swift in Sources */,
 				054B1D4222CDB8D300F0B112 /* NetworkServiceManager.swift in Sources */,
+				054B1D7922CF0A1100F0B112 /* ImageDownloadingStatus.swift in Sources */,
 				054B1D5D22CDC1DC00F0B112 /* DataInitializer.swift in Sources */,
 				054B1D7422CDC69E00F0B112 /* ToastView.swift in Sources */,
 				054B1D6B22CDC47400F0B112 /* Utility.swift in Sources */,
 				054B1D1022CDAB3800F0B112 /* ViewController.swift in Sources */,
 				054B1D5F22CDC2BF00F0B112 /* NetworkDataDownloaderProtocol.swift in Sources */,
+				054B1D8C22CF0C3100F0B112 /* HomeContactCell.swift in Sources */,
+				054B1D7F22CF0A7300F0B112 /* ImageDownloader.swift in Sources */,
 				054B1D0E22CDAB3800F0B112 /* AppDelegate.swift in Sources */,
 				054B1D3D22CDABD500F0B112 /* Constants.swift in Sources */,
 				054B1D4422CDB9A000F0B112 /* NetworkObject.swift in Sources */,
 				054B1D4B22CDBCB100F0B112 /* NetworkServiceHandler.swift in Sources */,
+				054B1D8722CF0BCF00F0B112 /* CellUpdateProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

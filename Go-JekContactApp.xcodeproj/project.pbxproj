@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0509475922D0FD0E00536EF1 /* XCUIElement+ElementAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0509475722D0FD0E00536EF1 /* XCUIElement+ElementAction.swift */; };
+		0509475A22D0FD0E00536EF1 /* XCUIApplication+CellTap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0509475822D0FD0E00536EF1 /* XCUIApplication+CellTap.swift */; };
 		054B1D0E22CDAB3800F0B112 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054B1D0D22CDAB3800F0B112 /* AppDelegate.swift */; };
 		054B1D1022CDAB3800F0B112 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054B1D0F22CDAB3800F0B112 /* ViewController.swift */; };
 		054B1D1322CDAB3800F0B112 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 054B1D1122CDAB3800F0B112 /* Main.storyboard */; };
@@ -86,6 +88,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0509475722D0FD0E00536EF1 /* XCUIElement+ElementAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "XCUIElement+ElementAction.swift"; sourceTree = "<group>"; };
+		0509475822D0FD0E00536EF1 /* XCUIApplication+CellTap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "XCUIApplication+CellTap.swift"; sourceTree = "<group>"; };
 		054B1D0A22CDAB3800F0B112 /* Go-JekContactApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Go-JekContactApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		054B1D0D22CDAB3800F0B112 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		054B1D0F22CDAB3800F0B112 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -236,6 +240,8 @@
 			isa = PBXGroup;
 			children = (
 				054B1D2D22CDAB3A00F0B112 /* Go_JekContactAppUITests.swift */,
+				0509475822D0FD0E00536EF1 /* XCUIApplication+CellTap.swift */,
+				0509475722D0FD0E00536EF1 /* XCUIElement+ElementAction.swift */,
 				054B1D2F22CDAB3A00F0B112 /* Info.plist */,
 			);
 			path = "Go-JekContactAppUITests";
@@ -665,7 +671,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0509475922D0FD0E00536EF1 /* XCUIElement+ElementAction.swift in Sources */,
 				054B1D2E22CDAB3A00F0B112 /* Go_JekContactAppUITests.swift in Sources */,
+				0509475A22D0FD0E00536EF1 /* XCUIApplication+CellTap.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -831,7 +839,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.bsb.Go-JekContactApp";
+				PRODUCT_BUNDLE_IDENTIFIER = com.airtel.wynkpremiere;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -849,7 +857,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.bsb.Go-JekContactApp";
+				PRODUCT_BUNDLE_IDENTIFIER = com.airtel.wynkpremiere;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";

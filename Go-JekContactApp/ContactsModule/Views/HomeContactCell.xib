@@ -19,7 +19,7 @@
                 <rect key="frame" x="0.0" y="0.0" width="320" height="63.5"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="photo_placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="nvx-Z9-Tq7">
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="placeholder_photo" translatesAutoresizingMaskIntoConstraints="NO" id="nvx-Z9-Tq7">
                         <rect key="frame" x="16" y="12" width="40" height="40"/>
                         <constraints>
                             <constraint firstAttribute="width" secondItem="nvx-Z9-Tq7" secondAttribute="height" multiplier="1:1" id="XrB-qL-pmD"/>
@@ -38,7 +38,7 @@
                             <constraint firstAttribute="width" secondItem="Wq8-Zy-kfx" secondAttribute="height" multiplier="1:1" id="hpa-xb-Hsl"/>
                             <constraint firstAttribute="width" constant="19" id="w5n-XA-UMq"/>
                         </constraints>
-                        <state key="normal" image="favorite"/>
+                        <state key="normal" image="home_favourite"/>
                     </button>
                 </subviews>
                 <color key="backgroundColor" red="0.96078431372549022" green="0.96078431372549022" blue="0.96078431372549022" alpha="1" colorSpace="calibratedRGB"/>
@@ -63,7 +63,7 @@
         </tableViewCell>
     </objects>
     <resources>
-        <image name="favorite" width="19" height="18"/>
-        <image name="photo_placeholder" width="126" height="126"/>
+        <image name="home_favourite" width="19" height="18"/>
+        <image name="placeholder_photo" width="126" height="126"/>
     </resources>
 </document>

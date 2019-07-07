@@ -180,19 +180,7 @@ extension ContactDetailViewModel : ContactDetailVMAccessorProtocol {
     }
     
     func updateContact(withCompletion completion : @escaping (Bool, CustomErrorProtocol?) -> Void) {
-        
-        /*
-         {
-         "first_name": "Amitabh",
-         "last_name": "Bachchan",
-         "email": "ab@bachchan.com",
-         "phone_number": "+919980123412",
-         "profile_pic": "https://contacts-app.s3-ap-southeast-1.amazonaws.com/contacts/profile_pics/000/000/007/original/ab.jpg?1464516610",
-         "favorite": false,
-         "created_at": "2016-05-29T10:10:10.995Z",
-         "updated_at": "2016-05-29T10:10:10.995Z"
-         }
-         */
+     
         if let contact = selectedContact as? Contact {
             if vmState == .edit {
                 let mappedList = ["first_name", "last_name", "phone_number", "email"]

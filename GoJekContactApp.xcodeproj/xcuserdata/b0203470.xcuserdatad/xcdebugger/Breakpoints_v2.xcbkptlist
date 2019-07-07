@@ -10,7 +10,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Go-JekContactApp/ContactDetailModule/Controller/ContactDetailViewController.swift"
-            timestampString = "584125677.535887"
+            timestampString = "584127348.387199"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "334"
@@ -26,7 +26,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Go-JekContactApp/ContactDetailModule/Controller/ContactDetailViewController.swift"
-            timestampString = "584125677.536538"
+            timestampString = "584127348.387314"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "295"
@@ -48,6 +48,22 @@
             startingLineNumber = "56"
             endingLineNumber = "56"
             landmarkName = "updateView(withData:status:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Go-JekContactAppUITests/Go_JekContactAppUITests.swift"
+            timestampString = "584127348.387434"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "testFullFlow()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Go-JekContactApp.xcodeproj">
+      location = "self:/Users/b0203470/Documents/Go-JekContactApp/Go-JekContactApp.xcodeproj">
    </FileRef>
 </Workspace>

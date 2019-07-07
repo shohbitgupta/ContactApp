@@ -81,7 +81,7 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource
         let cell = tableView.dequeueReusableCell(withIdentifier: TableConstants.tableViewCellID, for: indexPath) as! HomeContactCell
         let data = viewModel[indexPath]
         cell.updateView(withData: data)
-        cell.accessibilityIdentifier = "homeCell_\(indexPath.section)_\(indexPath.row)"
+        cell.accessibilityIdentifier = "homeCell_\(0)_\(0)"
         return cell
     }
     

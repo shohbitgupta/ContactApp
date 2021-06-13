@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="EditContactTableViewCell" customModule="ContactApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="67"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="66.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gUe-vK-3Wj">
+                        <rect key="frame" x="24" y="20" width="39.5" height="26.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" relation="lessThanOrEqual" constant="150" id="rHt-U9-LJJ"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" red="0.2901960784" green="0.2901960784" blue="0.2901960784" alpha="0.5" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="ZET-Qi-Gy9">
+                        <rect key="frame" x="95.5" y="20" width="208.5" height="26.5"/>
+                        <color key="tintColor" red="0.2901960784" green="0.2901960784" blue="0.2901960784" alpha="0.5" colorSpace="calibratedRGB"/>
+                        <color key="textColor" red="0.29019607843137252" green="0.29019607843137252" blue="0.29019607843137252" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <textInputTraits key="textInputTraits" autocorrectionType="no"/>
+                        <connections>
+                            <outlet property="delegate" destination="KGk-i7-Jjw" id="O0R-cW-r1b"/>
+                        </connections>
+                    </textField>
+                </subviews>
+                <color key="backgroundColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.96078431369999995" alpha="1" colorSpace="calibratedRGB"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="ZET-Qi-Gy9" secondAttribute="trailing" constant="16" id="7IZ-Dv-1f8"/>
+                    <constraint firstItem="ZET-Qi-Gy9" firstAttribute="leading" secondItem="gUe-vK-3Wj" secondAttribute="trailing" constant="32" id="9Nd-jW-fqY"/>
+                    <constraint firstAttribute="bottom" secondItem="gUe-vK-3Wj" secondAttribute="bottom" constant="20" id="B2K-rH-Q3w"/>
+                    <constraint firstItem="ZET-Qi-Gy9" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="20" id="brH-a6-VmT"/>
+                    <constraint firstItem="gUe-vK-3Wj" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="24" id="eM4-Yf-xVo"/>
+                    <constraint firstAttribute="bottom" secondItem="ZET-Qi-Gy9" secondAttribute="bottom" constant="20" id="iW4-bj-221"/>
+                    <constraint firstItem="gUe-vK-3Wj" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="20" id="uCw-ux-fDX"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="editTextField" destination="ZET-Qi-Gy9" id="LtI-Ki-l7M"/>
+                <outlet property="leftLabel" destination="gUe-vK-3Wj" id="YRA-5c-ewA"/>
+            </connections>
+            <point key="canvasLocation" x="137.59999999999999" y="153.82308845577214"/>
+        </tableViewCell>
+    </objects>
+</document>

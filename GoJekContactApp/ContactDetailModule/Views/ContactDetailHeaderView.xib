@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ContactDetailHeaderView" customModule="Go_JekContactApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="291"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sxP-8b-cmg">
+                    <rect key="frame" x="144" y="40" width="126" height="120"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="placeholder_photo" translatesAutoresizingMaskIntoConstraints="NO" id="Lzt-1I-bbW">
+                            <rect key="frame" x="0.0" y="0.0" width="126" height="120"/>
+                        </imageView>
+                        <button hidden="YES" opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pit-FN-vfu">
+                            <rect key="frame" x="85" y="79" width="41" height="41"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="41" id="LIZ-IJ-P2h"/>
+                                <constraint firstAttribute="width" constant="41" id="lU6-xd-Epy"/>
+                            </constraints>
+                            <state key="normal" image="camera_button"/>
+                            <connections>
+                                <action selector="buttonTapped:" destination="iN0-l3-epB" eventType="touchUpInside" id="rwX-lP-4AE"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="120" id="Hye-Kf-1VP"/>
+                        <constraint firstAttribute="width" constant="126" id="OKL-qh-EN1"/>
+                        <constraint firstAttribute="bottom" secondItem="pit-FN-vfu" secondAttribute="bottom" id="RCz-Kr-yRA"/>
+                        <constraint firstItem="Lzt-1I-bbW" firstAttribute="leading" secondItem="sxP-8b-cmg" secondAttribute="leading" id="epO-1W-l5B"/>
+                        <constraint firstAttribute="trailing" secondItem="Lzt-1I-bbW" secondAttribute="trailing" id="fIa-1w-qSn"/>
+                        <constraint firstAttribute="bottom" secondItem="Lzt-1I-bbW" secondAttribute="bottom" id="gas-FA-47Z"/>
+                        <constraint firstAttribute="trailing" secondItem="pit-FN-vfu" secondAttribute="trailing" id="hTh-ii-N8f"/>
+                        <constraint firstItem="Lzt-1I-bbW" firstAttribute="top" secondItem="sxP-8b-cmg" secondAttribute="top" id="n30-N4-t9u"/>
+                    </constraints>
+                </view>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="jdP-RU-SUl">
+                    <rect key="frame" x="152" y="168" width="110.5" height="20.5"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Shobhit Gupta" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FRH-tx-aTY">
+                            <rect key="frame" x="0.0" y="0.0" width="110.5" height="20.5"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                </stackView>
+                <stackView opaque="NO" contentMode="scaleToFill" spacing="28" translatesAutoresizingMaskIntoConstraints="NO" id="LMn-9z-7LY">
+                    <rect key="frame" x="55" y="219" width="304" height="50"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0GB-T8-gjq" customClass="CustomControl" customModule="Go_JekContactApp" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="0.0" width="55" height="50"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="55" id="tdi-Lp-viq"/>
+                            </constraints>
+                        </view>
+                        <view tag="1" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wzz-hm-swR" customClass="CustomControl" customModule="Go_JekContactApp" customModuleProvider="target">
+                            <rect key="frame" x="83" y="0.0" width="55" height="50"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="55" id="dGh-BD-SAT"/>
+                            </constraints>
+                        </view>
+                        <view tag="2" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="S2N-h9-viN" customClass="CustomControl" customModule="Go_JekContactApp" customModuleProvider="target">
+                            <rect key="frame" x="166" y="0.0" width="55" height="50"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="55" id="Iux-5d-M2b"/>
+                            </constraints>
+                        </view>
+                        <view tag="3" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HdS-aj-Mhf" customClass="CustomControl" customModule="Go_JekContactApp" customModuleProvider="target">
+                            <rect key="frame" x="249" y="0.0" width="55" height="50"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="55" id="NH1-V8-yyB"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="304" id="d8I-uU-vl5"/>
+                    </constraints>
+                </stackView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="sxP-8b-cmg" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="BYT-7l-3zi"/>
+                <constraint firstItem="jdP-RU-SUl" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="MMQ-mH-KFF"/>
+                <constraint firstItem="jdP-RU-SUl" firstAttribute="top" secondItem="sxP-8b-cmg" secondAttribute="bottom" constant="8" id="Nfr-H0-Uha"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="LMn-9z-7LY" secondAttribute="bottom" constant="22" id="TR6-Pe-VXY"/>
+                <constraint firstItem="sxP-8b-cmg" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="40" id="bpV-59-Dbh"/>
+                <constraint firstItem="LMn-9z-7LY" firstAttribute="top" secondItem="jdP-RU-SUl" secondAttribute="bottom" constant="30.5" id="ixP-vS-SsO"/>
+                <constraint firstItem="LMn-9z-7LY" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="ziW-OS-zDf"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="callButton" destination="wzz-hm-swR" id="vts-bX-Znb"/>
+                <outlet property="cameraButton" destination="pit-FN-vfu" id="hFZ-uv-ULm"/>
+                <outlet property="emailButton" destination="S2N-h9-viN" id="Sda-Ea-lwb"/>
+                <outlet property="favButton" destination="HdS-aj-Mhf" id="0OB-wf-bir"/>
+                <outlet property="messageButton" destination="0GB-T8-gjq" id="BWj-1m-IgP"/>
+                <outlet property="picBackView" destination="sxP-8b-cmg" id="88N-UQ-nMG"/>
+                <outlet property="userImageView" destination="Lzt-1I-bbW" id="LEw-ym-iwE"/>
+                <outlet property="userNameLabel" destination="FRH-tx-aTY" id="ZkR-4d-kOI"/>
+            </connections>
+            <point key="canvasLocation" x="137.59999999999999" y="152.47376311844079"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="camera_button" width="41" height="41"/>
+        <image name="placeholder_photo" width="126" height="126"/>
+    </resources>
+</document>
